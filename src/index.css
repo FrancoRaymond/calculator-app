@@ -1,12 +1,40 @@
 @import "tailwindcss";
 
+
 .firstTheme{
-    @apply bg-[#3b4664]
+    @apply bg-[#3b4664] transition-all duration-500
+}
+.firstTheme h1,
+.firstTheme p,
+.firstTheme span{
+    @apply text-white transition-all duration-500
 }
 
-.firstTheme .screen{
-   @apply bg-[#181f32] text-white
+.firstTheme .toggleBtn{
+    @apply bg-[#252d44] transition-all duration-500
 }
+.firstTheme .toggleSwitch{
+    @apply bg-red-500 transition-all duration-500
+}
+.firstTheme .screen{
+    @apply bg-[#181f32] text-white transition-all duration-500
+ }
+.firstTheme .keyboard{
+    @apply bg-[#252d44] transition-all duration-500
+}
+.firstTheme .regularBtn{
+    @apply text-[#252d44] bg-white border-gray-400 transition-all duration-500
+}
+.firstTheme .accentBtn{
+    @apply bg-[#647299] text-white border-gray-700 transition-all duration-500
+}
+.firstTheme .equalBtn{
+    @apply text-white bg-red-500 border-gray-700 transition-all duration-500
+}
+
+
+
+
 /*
 .secondTheme{
     @apply 
