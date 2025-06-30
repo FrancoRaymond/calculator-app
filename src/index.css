@@ -2,44 +2,98 @@
 
 
 .firstTheme{
-    @apply bg-[#3b4664] transition-all duration-500
+    @apply bg-[#3b4664]
 }
 .firstTheme h1,
 .firstTheme p,
 .firstTheme span{
-    @apply text-white transition-all duration-500
+    @apply text-white 
 }
 
 .firstTheme .toggleBtn{
-    @apply bg-[#252d44] transition-all duration-500
+    @apply bg-[#252d44] 
 }
 .firstTheme .toggleSwitch{
-    @apply bg-red-500 transition-all duration-500
+    @apply bg-red-500 
 }
 .firstTheme .screen{
-    @apply bg-[#181f32] text-white transition-all duration-500
+    @apply bg-[#181f32] text-white 
  }
 .firstTheme .keyboard{
-    @apply bg-[#252d44] transition-all duration-500
+    @apply bg-[#252d44] 
 }
 .firstTheme .regularBtn{
-    @apply text-[#252d44] bg-white border-gray-400 transition-all duration-500
+    @apply text-[#252d44] bg-white border-gray-400 
 }
 .firstTheme .accentBtn{
-    @apply bg-[#647299] text-white border-gray-700 transition-all duration-500
+    @apply bg-[#647299] text-white border-gray-700 
 }
 .firstTheme .equalBtn{
-    @apply text-white bg-red-500 border-gray-700 transition-all duration-500
+    @apply text-white bg-red-500 border-gray-700 
 }
 
+/*  SECOND THEME STYLES  */
 
-
-
-/*
 .secondTheme{
-    @apply 
+    @apply bg-[#e6e6e6] 
 }
+.secondTheme h1,
+.secondTheme p,
+.secondTheme span{
+    @apply text-gray-900 
+}
+
+.secondTheme .toggleBtn{
+    @apply bg-[#d3cdcd] 
+}
+.secondTheme .toggleSwitch{
+    @apply bg-[#c85401] 
+}
+.secondTheme .screen{
+    @apply bg-[#eeeeee] text-gray-900 
+ }
+.secondTheme .keyboard{
+    @apply bg-[#d3cdcd] 
+}
+.secondTheme .regularBtn{
+    @apply text-gray-900 bg-[#eeeeee] border-gray-400 
+}
+.secondTheme .accentBtn{
+    @apply bg-[#388187] text-white border-gray-700 
+}
+.secondTheme .equalBtn{
+    @apply text-white bg-[#c85401] border-gray-700 
+}
+
+/*  THIRD THEME STYLES  */
 
 .thirdTheme{
-    @apply 
-}*/
+    @apply bg-[#17062a] 
+}
+.thirdTheme h1,
+.thirdTheme p,
+.thirdTheme span{
+    @apply text-yellow-300 
+}
+
+.thirdTheme .toggleBtn{
+    @apply bg-[#1e0836] 
+}
+.thirdTheme .toggleSwitch{
+    @apply bg-[#00decf] 
+}
+.thirdTheme .screen{
+    @apply bg-[#1e0836] text-yellow-300 
+ }
+.thirdTheme .keyboard{
+    @apply bg-[#1e0836] 
+}
+.thirdTheme .regularBtn{
+    @apply text-yellow-300 bg-[#331b4d] border-purple-800 
+}
+.thirdTheme .accentBtn{
+    @apply bg-[#56077c] text-white border-purple-600 
+}
+.thirdTheme .equalBtn{
+    @apply text-gray-900 bg-[#00decf] border-cyan-300 
+}

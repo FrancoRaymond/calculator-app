@@ -50,26 +50,26 @@ function App() {
             </div>
           </div>
         </div>
-        <div className='screen rounded-md text-4xl font-bold p-5 mt-5 text-right'>399,981</div>
+        <div className='screen rounded-md text-4xl font-bold p-5 mt-5 text-right'>00</div>
         <div className='keyboard grid grid-cols-4 p-5 rounded-md gap-5 mt-5'>
-          <button className='regularBtn border-b-4 rounded-md py-1 px-4 text-2xl font-bold'>7</button>
-          <button className='regularBtn border-b-4 rounded-md py-1 px-4 text-2xl font-bold'>8</button>
-          <button className='regularBtn border-b-4 rounded-md py-1 px-4 text-2xl font-bold'>9</button>
-          <button className='accentBtn border-b-4 rounded-md py-1 px-4 text-2xl font-bold'>DEL</button>
-          <button className='regularBtn border-b-4 rounded-md py-1 px-4 text-2xl font-bold'>4</button>
-          <button className='regularBtn border-b-4 rounded-md py-1 px-4 text-2xl font-bold'>5</button>
-          <button className='regularBtn border-b-4 rounded-md py-1 px-4 text-2xl font-bold'>6</button>
-          <button className='regularBtn border-b-4 rounded-md py-1 px-4 text-2xl font-bold'>+</button>
-          <button className='regularBtn border-b-4 rounded-md py-1 px-4 text-2xl font-bold'>1</button>
-          <button className='regularBtn border-b-4 rounded-md py-1 px-4 text-2xl font-bold'>2</button>
-          <button className='regularBtn border-b-4 rounded-md py-1 px-4 text-2xl font-bold'>3</button>
-          <button className='regularBtn border-b-4 rounded-md py-1 px-4 text-2xl font-bold'>-</button>
-          <button className='regularBtn border-b-4 rounded-md py-1 px-4 text-2xl font-bold'>.</button>
-          <button className='regularBtn border-b-4 rounded-md py-1 px-4 text-2xl font-bold'>0</button>
-          <button className='regularBtn border-b-4 rounded-md py-1 px-4 text-2xl font-bold'>/</button>
-          <button className='regularBtn border-b-4 rounded-md py-1 px-4 text-2xl font-bold'>*</button>
-          <button className='accentBtn col-span-2 border-b-4 rounded-md py-1 px-4 text-2xl font-bold'>RESET</button>
-          <button className='equalBtn col-span-2 border-b-4 rounded-md py-1 px-4 text-2xl font-bold'>=</button>
+          <button className='regularBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold' value="7">7</button>
+          <button className='regularBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold' value="8">8</button>
+          <button className='regularBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold' value="9">9</button>
+          <button className='accentBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold'>DEL</button>
+          <button className='regularBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold' value="4">4</button>
+          <button className='regularBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold' value="5">5</button>
+          <button className='regularBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold' value="7">6</button>
+          <button className='regularBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold' value="+">+</button>
+          <button className='regularBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold' value="1">1</button>
+          <button className='regularBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold' value="2">2</button>
+          <button className='regularBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold' value="3">3</button>
+          <button className='regularBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold' value="-">-</button>
+          <button className='regularBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold' value=".">.</button>
+          <button className='regularBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold' value="0">0</button>
+          <button className='regularBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold' value="/">/</button>
+          <button className='regularBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold' value="*">*</button>
+          <button className='accentBtn col-span-2 border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold'>RESET</button>
+          <button className='equalBtn col-span-2 border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold'>=</button>
         </div>
       </div>
     </div>
