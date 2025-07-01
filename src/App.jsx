@@ -3,6 +3,7 @@ import React,{ useState, useEffect } from 'react'
 function App() {
   const [themeSelected, setThemeSelected] = useState(1)
   const [theme, setTheme] = useState('firstTheme')
+  const [screenText, setScreenText] = useState('198')
 
   const handleThemeToggle = () => {
    
@@ -31,6 +32,16 @@ function App() {
     document.body.classList = theme
   },[theme])
 
+  const handleDelete = () => {
+    setScreenText(prev => {
+      if (prev.length === 1 || (prev.length === 2 && prev.startsWith("-"))) {
+        return "0"; 
+      }
+      return prev.slice(0, -1); 
+    });
+  };
+  
+
   return (
     <div className='min-h-screen py-10 flex justify-center items-center'>
       <div className=''>
@@ -50,12 +61,12 @@ function App() {
             </div>
           </div>
         </div>
-        <div className='screen rounded-md text-4xl font-bold p-5 mt-5 text-right'>00</div>
+        <div className='screen rounded-md text-4xl font-bold p-5 mt-5 text-right'>{screenText}</div>
         <div className='keyboard grid grid-cols-4 p-5 rounded-md gap-5 mt-5'>
           <button className='regularBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold' value="7">7</button>
           <button className='regularBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold' value="8">8</button>
           <button className='regularBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold' value="9">9</button>
-          <button className='accentBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold'>DEL</button>
+          <button className='accentBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold' onClick={handleDelete}>DEL</button>
           <button className='regularBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold' value="4">4</button>
           <button className='regularBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold' value="5">5</button>
           <button className='regularBtn border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold' value="7">6</button>
