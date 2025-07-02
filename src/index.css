@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+.keyboard button{
+    @apply border-b-4 rounded-md py-1 px-2 sm:px-4 text-lg sm:text-2xl font-bold cursor-pointer
+}
 
 .firstTheme{
     @apply bg-[#3b4664]
